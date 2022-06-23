@@ -80,14 +80,14 @@ public class Webtaurant_StepDef {
             }
             page.rightButton1.click();
             BrowserUtils.sleep(1);
-        } while (Integer.parseInt(Driver.getDriver().getCurrentUrl().substring(Driver.getDriver().getCurrentUrl().length() - 1)) <= 3);
+        } while (Integer.parseInt(Driver.getDriver().getCurrentUrl().substring(Driver.getDriver().getCurrentUrl().length() - 1)) <= 2);
 
-        if (Integer.parseInt(Driver.getDriver().getCurrentUrl().substring(Driver.getDriver().getCurrentUrl().length() - 1)) == 9) {
-
-            for (WebElement each : page.allProduct) {
-                Assert.assertTrue(each.getText().contains("Table"));
-            }
-        }
+//        if (Integer.parseInt(Driver.getDriver().getCurrentUrl().substring(Driver.getDriver().getCurrentUrl().length() - 1)) == 9) {
+//
+//            for (WebElement each : page.allProduct) {
+//                Assert.assertTrue(each.getText().contains("Table"));
+//            }
+//        }
 
         //System.out.println(product.size());
         Driver.closeDriver();

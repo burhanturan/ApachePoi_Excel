@@ -16,7 +16,7 @@ import org.junit.runner.RunWith;
         features="src/test/resources/features",
         glue = "com/apache/step_definition",
         dryRun = false,
-        tags = "@rest"
+        tags = "@smoke"
 )
 public class CukesRunner {
 }
