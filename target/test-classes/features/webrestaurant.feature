@@ -1,5 +1,5 @@
 Feature: Test search feature
-  @rest
+  @smoke
   Scenario: Test table
   Given users are on  the homepage
   When user search "stainless work table"
@@ -7,7 +7,7 @@ Feature: Test search feature
 
 
 
-
+#hello
 
 
 
