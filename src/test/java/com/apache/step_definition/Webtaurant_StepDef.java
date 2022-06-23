@@ -31,54 +31,67 @@ public class Webtaurant_StepDef {
     public void user_should_see_int_every_title(String string) throws RuntimeException {
 
 
-        List<String> product = new ArrayList<>();
+//        List<String> product = new ArrayList<>();
+//
+//        for (WebElement each : page.allProduct) {
+//            product.add(each.getText());
+//        }
+//        page.rightButton.click();
+//
+//        while (Integer.parseInt(Driver.getDriver().getCurrentUrl().substring(Driver.getDriver().getCurrentUrl().length() - 1)) < 9) {
+//            for (WebElement each : page.allProduct) {
+//                product.add(each.getText());
+//            }
+//            page.rightButton1.click();
+//            BrowserUtils.sleep(1);
+//        }
+//
+//
+//        for (String each : product) {
+//            if (!each.contains("Table")){
+//                System.out.println(each);
+//            }
+//            Assert.assertTrue(each.contains("Table"));
+//        }
+//
+//        if (Integer.parseInt(Driver.getDriver().getCurrentUrl().substring(Driver.getDriver().getCurrentUrl().length() - 1)) == 9) {
+//
+//            for (WebElement each : page.allProduct) {
+//                Assert.assertTrue(each.getText().contains("Table"));
+//            }
+//        }
+//
+//        System.out.println(product.size());
+//        Driver.closeDriver();
+
 
         for (WebElement each : page.allProduct) {
-            product.add(each.getText());
+            Assert.assertTrue(each.getText().contains("Table"));
         }
         page.rightButton.click();
 
-        while (Integer.parseInt(Driver.getDriver().getCurrentUrl().substring(Driver.getDriver().getCurrentUrl().length() - 1)) < 9) {
+        do {
             for (WebElement each : page.allProduct) {
-                product.add(each.getText());
+                if (!each.getText().contains("Table")) {
+                    System.out.println(each.getText());
+                }
+
+                Assert.assertTrue(each.getText().contains("Table"));
             }
             page.rightButton1.click();
             BrowserUtils.sleep(1);
-        }
-
-
-        for (String each : product) {
-            Assert.assertTrue(each.contains("Table"));
-        }
+        } while (Integer.parseInt(Driver.getDriver().getCurrentUrl().substring(Driver.getDriver().getCurrentUrl().length() - 1)) <= 3);
 
         if (Integer.parseInt(Driver.getDriver().getCurrentUrl().substring(Driver.getDriver().getCurrentUrl().length() - 1)) == 9) {
 
             for (WebElement each : page.allProduct) {
-                product.add(each.getText());
-            }
-            for (String each : product) {
-                Assert.assertTrue(each.contains("Table"));
+                Assert.assertTrue(each.getText().contains("Table"));
             }
         }
 
-        System.out.println(product.size());
+        //System.out.println(product.size());
         Driver.closeDriver();
 
-
-//        for (WebElement each : page.allProduct) {
-//            Assert.assertTrue(each.getText().contains("Table"));
-//        }
-//        page.rightButton.click();
-//
-//        do {
-//            for (WebElement each : page.allProduct) {
-//                Assert.assertTrue(each.getText().contains("Table"));
-//            }
-//            page.rightButton1.click();
-//            BrowserUtils.sleep(1);
-//        } while (Integer.parseInt(Driver.getDriver().getCurrentUrl().substring(Driver.getDriver().getCurrentUrl().length() - 1)) <= 8);
-//
-//        Driver.closeDriver();
     }
 
 }
