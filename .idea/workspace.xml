@@ -84,7 +84,7 @@
       <module name="ApachePoi_Excel" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.apache.runners.*" />
+          <option name="PATTERN" value="com.apache.step_definition.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
