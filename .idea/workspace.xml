@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="037311d8-8920-4979-b211-63053136ddb3" name="Changes" comment="Last1 Commit">
-      <change beforePath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/overview-failures.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/overview-failures.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/overview-features.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/overview-features.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/overview-steps.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/overview-steps.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/overview-tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/overview-tags.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/report-feature_2659897828.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/report-feature_2659897828.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/apache/runners/CukesRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/apache/runners/CukesRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/apache/step_definition/Webtaurant_StepDef.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/apache/step_definition/Webtaurant_StepDef.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/webrestaurant.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/webrestaurant.feature" afterDir="false" />
-    </list>
+    <list default="true" id="037311d8-8920-4979-b211-63053136ddb3" name="Changes" comment="Google title" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,7 +24,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2ApouAtXToYl3a1lBoWoZh8YDHO" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -127,7 +120,7 @@
       <workItem from="1655902238283" duration="512000" />
       <workItem from="1655917724877" duration="2618000" />
       <workItem from="1656001018015" duration="853000" />
-      <workItem from="1656001993647" duration="681000" />
+      <workItem from="1656001993647" duration="980000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1656001076475</created>
@@ -171,7 +164,28 @@
       <option name="project" value="LOCAL" />
       <updated>1656002381113</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Last1 Commit">
+      <created>1656002699197</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1656002699197</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Last1 Commit">
+      <created>1656002704463</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1656002704463</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Google title">
+      <created>1656002970315</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1656002970315</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,6 +206,7 @@
     <MESSAGE value="First Commit" />
     <MESSAGE value="Last Commit" />
     <MESSAGE value="Last1 Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Last1 Commit" />
+    <MESSAGE value="Google title" />
+    <option name="LAST_COMMIT_MESSAGE" value="Google title" />
   </component>
 </project>

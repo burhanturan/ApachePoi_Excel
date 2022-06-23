@@ -14,6 +14,7 @@ public class Google_StepDef {
     @Then("user should see {string} in the title")
     public void user_should_see_in_the_title(String title) {
         Assert.assertTrue(Driver.getDriver().getTitle().contains(title));
+        Driver.closeDriver();
     }
 
 }
