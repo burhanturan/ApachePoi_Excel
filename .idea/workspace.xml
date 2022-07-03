@@ -4,20 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="037311d8-8920-4979-b211-63053136ddb3" name="Changes" comment="Google title">
-      <change afterPath="$PROJECT_DIR$/SampleData.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VyTrackUserQA2.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/apache/pages/VyTrackDashboardPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/apache/pages/VyTrackLoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/apache/tests/ExcelRead.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/apache/tests/VyTrackDDTTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/apache/tests/WriteExcel.java" afterDir="false" />
+    <list default="true" id="037311d8-8920-4979-b211-63053136ddb3" name="Changes" comment="google read and write practice">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/apache/runners/CukesRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/apache/runners/CukesRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/apache/step_definition/Google_StepDef.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/apache/step_definition/Google_StepDef.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/google.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/google.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleData.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/SampleData.xlsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,18 +52,16 @@
       <recent name="C:\Users\Turan\IdeaProjects\ApachePoi_Excel" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.VyTrackDDTTest.loginDDTTest">
-    <configuration name="CukesRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ExcelRead.read_from_excelFile">
+    <configuration name="Testtt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.apache.utilities.Testtt" />
       <module name="ApachePoi_Excel" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.apache.step_definition.*" />
+          <option name="PATTERN" value="com.apache.utilities.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.apache.runners" />
-      <option name="MAIN_CLASS_NAME" value="com.apache.runners.CukesRunner" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -144,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ExcelRead.read_from_excelFile" />
+        <item itemvalue="Application.Testtt" />
         <item itemvalue="JUnit.VyTrackDDTTest.loginDDTTest" />
         <item itemvalue="JUnit.WriteExcel.excel_write" />
-        <item itemvalue="JUnit.ExcelRead.read_from_excelFile" />
         <item itemvalue="JUnit.ExcelRead" />
-        <item itemvalue="JUnit.CukesRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +170,13 @@
       <workItem from="1656062695452" duration="57000" />
       <workItem from="1656062766346" duration="257000" />
       <workItem from="1656063045336" duration="979000" />
-      <workItem from="1656064055583" duration="6150000" />
+      <workItem from="1656064055583" duration="7884000" />
+      <workItem from="1656080715470" duration="323000" />
+      <workItem from="1656271631038" duration="96000" />
+      <workItem from="1656325229579" duration="67000" />
+      <workItem from="1656326005280" duration="51000" />
+      <workItem from="1656328892612" duration="802000" />
+      <workItem from="1656537967958" duration="156000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1656001076475</created>
@@ -262,7 +255,21 @@
       <option name="project" value="LOCAL" />
       <updated>1656003915342</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="google read and write practice">
+      <created>1656070499221</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1656070499221</updated>
+    </task>
+    <task id="LOCAL-00013" summary="google read and write practice">
+      <created>1656070519240</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1656070519240</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,7 +291,8 @@
     <MESSAGE value="Last Commit" />
     <MESSAGE value="Last1 Commit" />
     <MESSAGE value="Google title" />
-    <option name="LAST_COMMIT_MESSAGE" value="Google title" />
+    <MESSAGE value="google read and write practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="google read and write practice" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
