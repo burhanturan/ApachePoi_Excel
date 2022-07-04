@@ -7,11 +7,12 @@ public class TestExcelUtil {
 
     @Test
     public void test() {
-        ExcelReader reader = new ExcelReader("SampleData.xlsx");
 
-        System.out.println(reader.getCellData("Employees", "FirstName", 5));
+        ExcelReader reader = new ExcelReader("C:\\Users\\Turan\\Desktop\\DDTTesting.xlsx");
 
-        int rowCOunt = reader.getRowCount("Employees");
+        System.out.println(reader.getCellData("dataStudent", "username", 1));
+
+        int rowCOunt = reader.getRowCount("dataStudent");
         System.out.println("total rows: " + rowCOunt);
 
         if (!reader.isSheetExist("DenemeSheet")) {
@@ -19,11 +20,19 @@ public class TestExcelUtil {
         }
 
 
-        reader.setCellData("Employees", "LastName", 2, "Snowwww");
+        reader.setCellData("dataStudent", "password", 2, "Snowwww");
 
-        System.out.println(reader.getCellData("Employees", "LastName", 2));
+        System.out.println(reader.getCellData("dataStudent", "result", 2));
 
-        System.out.println(reader.getColumnCount("Employees"));
+        System.out.println(reader.getColumnCount("dataStudent"));
+
+        reader.removeSheet("DenemeSheet");
+
+        for (int i = 2; i <= reader.getRowCount("dataStudent"); i++) {
+
+            reader.setCellData("dataStudent", "Result", i, "Snowwww");
+
+        }
 
     }
 }

@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="037311d8-8920-4979-b211-63053136ddb3" name="Changes" comment="google read and write practice">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/apache/tests/TestExcelUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/apache/utilities/ExcelReader.java" afterDir="false" />
+    <list default="true" id="037311d8-8920-4979-b211-63053136ddb3" name="Changes" comment="excelUtil added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SampleData.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/SampleData.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VyTrackUserQA2.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/VyTrackUserQA2.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/apache/tests/TestExcelUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/apache/tests/TestExcelUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/apache/tests/TestExcelUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/apache/tests/TestExcelUtil.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +184,7 @@
       <workItem from="1656848915204" duration="621000" />
       <workItem from="1656853451114" duration="19000" />
       <workItem from="1656963704788" duration="509000" />
-      <workItem from="1656964232330" duration="765000" />
+      <workItem from="1656964232330" duration="2473000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1656001076475</created>
@@ -284,7 +284,21 @@
       <option name="project" value="LOCAL" />
       <updated>1656848940031</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="excelUtil added">
+      <created>1656965111641</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1656965111641</updated>
+    </task>
+    <task id="LOCAL-00016" summary="excelUtil added">
+      <created>1656965117267</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1656965117267</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,7 +321,8 @@
     <MESSAGE value="Last1 Commit" />
     <MESSAGE value="Google title" />
     <MESSAGE value="google read and write practice" />
-    <option name="LAST_COMMIT_MESSAGE" value="google read and write practice" />
+    <MESSAGE value="excelUtil added" />
+    <option name="LAST_COMMIT_MESSAGE" value="excelUtil added" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
